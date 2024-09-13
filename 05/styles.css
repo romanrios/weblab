@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  overflow: hidden; /* Ocultar el scroll para una experiencia inmersiva */
+  background-color: #1e1e1e; /* Fondo oscuro para destacar los círculos */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+canvas {
+  border: 1px solid #fff; /* Borde blanco alrededor del lienzo */
+}

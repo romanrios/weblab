@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  overflow: hidden; /* Ocultar scroll para una experiencia inmersiva */
+  background-color: #000; /* Fondo negro para resaltar las partículas */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+canvas {
+  display: block; /* Quitar márgenes por defecto */
+}
